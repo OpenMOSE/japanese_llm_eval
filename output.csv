@@ -1,0 +1,105 @@
+model_name,eval_dataset,score,score_
+CohereForAI__c4ai-command-r-plus,ELYZA-tasks-100,3.75,7.5
+CohereForAI__c4ai-command-r-plus,Rakuda,9.051282051282051,9.051282051282051
+CohereForAI__c4ai-command-r-plus,Tengu-Bench,6.788135593220339,6.788135593220339
+CohereForAI__c4ai-command-r-v01,ELYZA-tasks-100,3.04,6.08
+CohereForAI__c4ai-command-r-v01,Rakuda,8.625,8.625
+CohereForAI__c4ai-command-r-v01,Tengu-Bench,6.675,6.675
+Nexusflow__Starling-LM-7B-beta,ELYZA-tasks-100,2.87,5.74
+Nexusflow__Starling-LM-7B-beta,Rakuda,4.425,4.425
+Nexusflow__Starling-LM-7B-beta,Tengu-Bench,5.408333333333333,5.408333333333333
+Qwen__Qwen1.5-14B-Chat,ELYZA-tasks-100,3.35,6.7
+Qwen__Qwen1.5-14B-Chat,Rakuda,6.545,6.545
+Qwen__Qwen1.5-14B-Chat,Tengu-Bench,6.2,6.2
+Qwen__Qwen1.5-32B-Chat,ELYZA-tasks-100,3.5454545454545454,7.090909090909091
+Qwen__Qwen1.5-32B-Chat,Rakuda,7.512820512820513,7.512820512820513
+Qwen__Qwen1.5-32B-Chat,Tengu-Bench,6.361344537815126,6.361344537815126
+Qwen__Qwen1.5-72B-Chat,ELYZA-tasks-100,3.801980198019802,7.603960396039604
+Qwen__Qwen1.5-72B-Chat,Rakuda,7.85,7.85
+Qwen__Qwen1.5-72B-Chat,Tengu-Bench,6.808333333333334,6.808333333333334
+Qwen__Qwen1.5-7B-Chat,ELYZA-tasks-100,2.77,5.54
+Qwen__Qwen1.5-7B-Chat,Rakuda,4.82051282051282,4.82051282051282
+Qwen__Qwen1.5-7B-Chat,Tengu-Bench,5.291666666666667,5.291666666666667
+RWKV x060 14B Base,ELYZA-tasks-100,2.53,5.06
+RWKV x060 14B Base,MT-Bench,3.9074074074074074,3.9074074074074074
+RWKV x060 14B Base,Rakuda,4.2631578947368425,4.2631578947368425
+RWKV x060 14B Base,Tengu-Bench,4.3277310924369745,4.3277310924369745
+RWKV x060 14B ORPO Base,ELYZA-tasks-100,3.06,6.12
+RWKV x060 14B ORPO Base,MT-Bench,4.983050847457627,4.983050847457627
+RWKV x060 14B ORPO Base,Rakuda,5.472222222222222,5.472222222222222
+RWKV x060 14B ORPO Base,Tengu-Bench,4.758333333333334,4.758333333333334
+RWKV x060 14B ORPO Base bancho,ELYZA-tasks-100,3.73,7.46
+RWKV x060 14B ORPO Base bancho,MT-Bench,6.423728813559322,6.423728813559322
+RWKV x060 14B ORPO Base bancho,Rakuda,6.948717948717949,6.948717948717949
+RWKV x060 14B ORPO Base bancho,Tengu-Bench,6.46218487394958,6.46218487394958
+RWKV x060 3B Base,ELYZA-tasks-100,1.8,3.6
+RWKV x060 3B Base,MT-Bench,2.462962962962963,2.462962962962963
+RWKV x060 3B Base,Rakuda,3.7567567567567566,3.7567567567567566
+RWKV x060 3B Base,Tengu-Bench,3.3445378151260505,3.3445378151260505
+RWKV x060 3B ORPO Base,ELYZA-tasks-100,2.01,4.02
+RWKV x060 3B ORPO Base,MT-Bench,3.23728813559322,3.23728813559322
+RWKV x060 3B ORPO Base,Rakuda,3.871794871794872,3.871794871794872
+RWKV x060 3B ORPO Base,Tengu-Bench,3.7966101694915255,3.7966101694915255
+RWKV x060 7B Base,ELYZA-tasks-100,2.13,4.26
+RWKV x060 7B Base,MT-Bench,3.087719298245614,3.087719298245614
+RWKV x060 7B Base,Rakuda,2.8947368421052633,2.8947368421052633
+RWKV x060 7B Base,Tengu-Bench,3.7916666666666665,3.7916666666666665
+RWKV x060 7B ORPO Base,ELYZA-tasks-100,2.55,5.1
+RWKV x060 7B ORPO Base,MT-Bench,4.648148148148148,4.648148148148148
+RWKV x060 7B ORPO Base,Rakuda,5.351351351351352,5.351351351351352
+RWKV x060 7B ORPO Base,Tengu-Bench,4.591666666666667,4.591666666666667
+RWKV x060 7B ORPO Base bancho,ELYZA-tasks-100,3.45,6.9
+RWKV x060 7B ORPO Base bancho,MT-Bench,6.105263157894737,6.105263157894737
+RWKV x060 7B ORPO Base bancho,Rakuda,7.052631578947368,7.052631578947368
+RWKV x060 7B ORPO Base bancho,Tengu-Bench,5.957983193277311,5.957983193277311
+Rakuten__RakutenAI-7B-chat,ELYZA-tasks-100,2.96,5.92
+Rakuten__RakutenAI-7B-chat,Rakuda,6.575,6.575
+Rakuten__RakutenAI-7B-chat,Tengu-Bench,5.241666666666666,5.241666666666666
+augmxnt__shisa-7b-v1,ELYZA-tasks-100,1.86,3.72
+augmxnt__shisa-7b-v1,Rakuda,2.225,2.225
+augmxnt__shisa-7b-v1,Tengu-Bench,3.408333333333333,3.408333333333333
+cyberagent__calm2-7b-chat,ELYZA-tasks-100,2.45,4.9
+cyberagent__calm2-7b-chat,Rakuda,5.75,5.75
+cyberagent__calm2-7b-chat,Tengu-Bench,4.808333333333334,4.808333333333334
+elyza__ELYZA-japanese-Llama-2-13b-instruct,ELYZA-tasks-100,2.8,5.6
+elyza__ELYZA-japanese-Llama-2-13b-instruct,Rakuda,5.625,5.625
+elyza__ELYZA-japanese-Llama-2-13b-instruct,Tengu-Bench,5.516666666666667,5.516666666666667
+gpt-3.5-turbo-0125,ELYZA-tasks-100,3.62,7.24
+gpt-3.5-turbo-0125,Rakuda,7.641025641025641,7.641025641025641
+gpt-3.5-turbo-0125,Tengu-Bench,6.816666666666666,6.816666666666666
+gpt-4-turbo-2024-04-09,ELYZA-tasks-100,4.39,8.78
+gpt-4-turbo-2024-04-09,Rakuda,9.175,9.175
+gpt-4-turbo-2024-04-09,Tengu-Bench,8.308333333333334,8.308333333333334
+gpt-4-turbo-preview,ELYZA-tasks-100,4.47,8.94
+gpt-4-turbo-preview,Rakuda,9.275,9.275
+gpt-4-turbo-preview,Tengu-Bench,7.841666666666667,7.841666666666667
+karakuri-ai__karakuri-lm-70b-chat-v0.1,ELYZA-tasks-100,3.43,6.86
+karakuri-ai__karakuri-lm-70b-chat-v0.1,Rakuda,7.85,7.85
+karakuri-ai__karakuri-lm-70b-chat-v0.1,Tengu-Bench,6.233333333333333,6.233333333333333
+lightblue__20240422,ELYZA-tasks-100,3.34,6.68
+lightblue__20240422,Rakuda,6.675,6.675
+lightblue__20240422,Tengu-Bench,5.525,5.525
+lightblue__ao-karasu-72B,ELYZA-tasks-100,3.595959595959596,7.191919191919192
+lightblue__ao-karasu-72B,Rakuda,7.25,7.25
+lightblue__ao-karasu-72B,Tengu-Bench,6.266666666666667,6.266666666666667
+lightblue__qarasu-14B-chat-plus-unleashed,ELYZA-tasks-100,2.787878787878788,5.575757575757576
+lightblue__qarasu-14B-chat-plus-unleashed,Rakuda,5.461538461538462,5.461538461538462
+lightblue__qarasu-14B-chat-plus-unleashed,Tengu-Bench,5.008333333333334,5.008333333333334
+lightblue__starlingbeta_cult_dsir_megagon_final,ELYZA-tasks-100,2.48,4.96
+lightblue__starlingbeta_cult_dsir_megagon_final,Rakuda,3.15,3.15
+lightblue__starlingbeta_cult_dsir_megagon_final,Tengu-Bench,3.5546218487394956,3.5546218487394956
+meta-llama__Llama-2-13b-chat-hf,ELYZA-tasks-100,2.82,5.64
+meta-llama__Llama-2-13b-chat-hf,Rakuda,2.275,2.275
+meta-llama__Llama-2-13b-chat-hf,Tengu-Bench,4.675,4.675
+meta-llama__Llama-2-7b-chat-hf,ELYZA-tasks-100,2.39,4.78
+meta-llama__Llama-2-7b-chat-hf,Rakuda,2.075,2.075
+meta-llama__Llama-2-7b-chat-hf,Tengu-Bench,3.9166666666666665,3.9166666666666665
+mistralai__Mistral-7B-Instruct-v0.2,ELYZA-tasks-100,2.89,5.78
+mistralai__Mistral-7B-Instruct-v0.2,Rakuda,3.8,3.8
+mistralai__Mistral-7B-Instruct-v0.2,Tengu-Bench,4.533333333333333,4.533333333333333
+openchat__openchat-3.5-0106,ELYZA-tasks-100,2.91,5.82
+openchat__openchat-3.5-0106,Rakuda,3.775,3.775
+openchat__openchat-3.5-0106,Tengu-Bench,5.491666666666666,5.491666666666666
+xverse__XVERSE-13B-Chat,ELYZA-tasks-100,3.17,6.34
+xverse__XVERSE-13B-Chat,Rakuda,6.65,6.65
+xverse__XVERSE-13B-Chat,Tengu-Bench,4.883333333333334,4.883333333333334

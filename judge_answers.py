@@ -1,5 +1,6 @@
 import argparse
 import os
+import time
 
 from datasets import load_dataset
 
@@ -36,7 +37,7 @@ def main():
     parser.add_argument('-m', '--model_name', type=str, required=True)
     parser.add_argument('-d', '--eval_dataset_name', type=str, default='all')
     parser.add_argument('-e', '--evaluation_model', type=str, default='gpt-4-turbo-preview')
-    parser.add_argument('-n', '--num_proc', type=int, default=8)
+    parser.add_argument('-n', '--num_proc', type=int, default=1)
 
     args = parser.parse_args()
     run_judgement(args.model_name, args.eval_dataset_name, args.evaluation_model, args.num_proc)

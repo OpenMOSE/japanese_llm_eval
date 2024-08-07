@@ -42,7 +42,7 @@ def main():
 
     parser.add_argument('-m', '--model_name', type=str, required=True)
     parser.add_argument('-d', '--eval_dataset_name', type=str, default='all')
-    parser.add_argument('-n', '--num_proc', type=int, default=8)
+    parser.add_argument('-n', '--num_proc', type=int, default=1)
 
     args = parser.parse_args()
     run_generate(args.model_name, args.eval_dataset_name, args.num_proc)

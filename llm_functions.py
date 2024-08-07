@@ -1,19 +1,24 @@
 import os
 
 from datasets import Dataset
-from openai import OpenAI
+import openai
+import time
 
 
 # === 評価生成関数群 ===
 def get_response_from_openai(messages: list, model_name: str) -> str:
-    client = OpenAI(
-        api_key=os.environ.get("OPENAI_API_KEY")
-    )
+    #client = OpenAI(
+    #    api_key=os.environ.get("OPENAI_API_KEY")
+    #)
+    api_key=os.environ.get("OPENAI_API_KEY")
+    openai.api_key = api_key
+    #openai.api_base = base_url
+    time.sleep(5)
 
     evaluation_temperature = 0
     evaluation_max_tokens = 1024
 
-    response = client.chat.completions.create(
+    response = openai.ChatCompletion.create(
         messages=messages,
         model=model_name,
         temperature=evaluation_temperature,
@@ -41,19 +46,22 @@ def get_model_response(messages: list, model_name: str) -> str:
 def get_answer(question: str, model_name: str):
     api_key = os.environ.get("OPENAI_API_KEY", "EMPTY")
     if api_key == "EMPTY":
-        base_url = "http://localhost:8000/v1"
+        base_url = "http://localhost:9000/v1"
     else:
         base_url = None
 
-    client = OpenAI(
-        api_key=api_key,
-        base_url=base_url,
-    )
+    #client = OpenAI(
+    #    api_key=api_key,
+    #    base_url=base_url,
+    #)
+    print(base_url)
+    openai.api_key = api_key
+    openai.api_base = base_url
 
     generation_temperature = 0
     generation_max_tokens = 2048
 
-    response = client.chat.completions.create(
+    response = openai.ChatCompletion.create(
         messages=[{"role": "user", "content": question}],
         model=model_name,
         temperature=generation_temperature,
@@ -71,6 +79,7 @@ def get_model_answer(dataset: Dataset,
                      model_name: str,
                      batch_size: int) -> Dataset:
     answer_function = get_answerer(model_name)
+    print(answer_function)
     dataset = dataset.map(
         lambda x: {"ModelAnswer": answer_function(x['Question'], model_name)},
         num_proc=batch_size
